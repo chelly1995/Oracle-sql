@@ -249,3 +249,4 @@ FROM employees
 WHERE employee_id='&empno';
 DBMS_OUTPUT.PUT_LINE(v_empno||'     '||v_name||'     '||v_sal);
 END;
+
